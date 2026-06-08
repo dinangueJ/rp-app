@@ -124,7 +124,7 @@ resource "aws_lb_listener" "rp_https" {
 resource "aws_route53_record" "rp_api_record" {
  
   zone_id = data.aws_route53_zone.main.zone_id
-  name    = "api.gamela.shop"
+  name    = "api.dinangue.com"
   type    = "A"
  
 
